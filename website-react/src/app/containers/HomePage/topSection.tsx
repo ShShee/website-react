@@ -154,8 +154,8 @@ export function TopSection() {
           you like
         </Description>
         <ButtonsContainer>
-          <Button theme="outlined" text="Book your Ride" />
-          <Button text="Sell your car" />
+          <Button text="Book your Ride" />
+          <Button theme="outlined" text="Sell your car" />
         </ButtonsContainer>
       </LeftContainer>
       <RightContainer>

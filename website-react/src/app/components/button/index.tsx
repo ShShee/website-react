@@ -3,7 +3,7 @@ import styled from "styled-components";
 import tw from "twin.macro";
 
 interface IButtonProps {
-  theme?: "filled" | "outlined";
+  theme?: "outlined" | "filled";
   text: string;
 }
 
@@ -29,7 +29,7 @@ const BaseButton = styled.button`
     `};
 `;
 
-const OutlinedButton = styled(BaseButton)`
+const FilledButton = styled(BaseButton)`
   ${tw`
         bg-red-500
         hover:bg-transparent
@@ -38,7 +38,7 @@ const OutlinedButton = styled(BaseButton)`
     `};
 `;
 
-const FilledButton = styled(BaseButton)`
+const OutlinedButton = styled(BaseButton)`
   ${tw`
         border-red-500
         text-red-500
